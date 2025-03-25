@@ -1,0 +1,30 @@
+.task-page-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .task-page-actions button {
+    padding: 5px 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  .task-page-actions button:first-child {
+    background-color: #531c81;
+    color: white;
+  }
+  
+  .task-page-actions button:first-child:hover {
+    background-color: #401562;
+  }
+  
+  .task-page-actions button:last-child {
+    background-color: #d11406;
+    color: white;
+  }
+  
+  .task-page-actions button:last-child:hover {
+    background-color: #a11107;
+  }
